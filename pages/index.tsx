@@ -11,7 +11,7 @@ import {
   FaCopy,
 } from "react-icons/fa";
 
-const base = "https://aichixia.vercel.app";
+const base = "https://re-nai.vercel.app";
 
 const CopyableCode = ({ text }: { text: string }) => {
   const [copied, setCopied] = useState(false);
