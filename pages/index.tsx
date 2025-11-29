@@ -232,23 +232,23 @@ export default function Docs() {
           Aichixia Endpoints
         </h2>
 
-        <Row method="GET" path={`${base}/api/aichixia?category=anime&action=search&query={text}`} desc="Search anime (requires query)" />
-        <Row method="GET" path={`${base}/api/aichixia?category=manga&action=search&query={text}`} desc="Search manga (requires query)" />
-        <Row method="GET" path={`${base}/api/aichixia?category=manhwa&action=search&query={text}`} desc="Search manhwa (requires query)" />
-        <Row method="GET" path={`${base}/api/aichixia?category=manhua&action=search&query={text}`} desc="Search manhua (requires query)" />
-        <Row method="GET" path={`${base}/api/aichixia?category=ln&action=search&query={text}`} desc="Search light novels (requires query)" />
+        <Row method="GET" path={`${base}/api/renai?category=anime&action=search&query={text}`} desc="Search anime (requires query)" />
+        <Row method="GET" path={`${base}/api/renai?category=manga&action=search&query={text}`} desc="Search manga (requires query)" />
+        <Row method="GET" path={`${base}/api/renai?category=manhwa&action=search&query={text}`} desc="Search manhwa (requires query)" />
+        <Row method="GET" path={`${base}/api/renai?category=manhua&action=search&query={text}`} desc="Search manhua (requires query)" />
+        <Row method="GET" path={`${base}/api/renai?category=ln&action=search&query={text}`} desc="Search light novels (requires query)" />
 
-        <Row method="GET" path={`${base}/api/aichixia?category=anime&action=detail&id={value}`} desc="Media detail by ID (requires id)" />
+        <Row method="GET" path={`${base}/api/renai?category=anime&action=detail&id={value}`} desc="Media detail by ID (requires id)" />
 
-        <Row method="GET" path={`${base}/api/aichixia?action=trending`} desc="Trending anime & manga" />
-        <Row method="GET" path={`${base}/api/aichixia?category=anime&action=seasonal`} desc="Seasonal anime list" />
-        <Row method="GET" path={`${base}/api/aichixia?action=airing`} desc="Airing schedule" />
-        <Row method="GET" path={`${base}/api/aichixia?category=anime&action=recommendations&id={value}`} desc="Recommendations (requires id)" />
-        <Row method="GET" path={`${base}/api/aichixia?category=manhwa&action=top-genre&genre={name}`} desc="Top by genre (requires genre)" />
-        <Row method="GET" path={`${base}/api/aichixia?action=character&id={value}`} desc="Character detail (requires id)" />
+        <Row method="GET" path={`${base}/api/renai?action=trending`} desc="Trending anime & manga" />
+        <Row method="GET" path={`${base}/api/renai?category=anime&action=seasonal`} desc="Seasonal anime list" />
+        <Row method="GET" path={`${base}/api/renai?action=airing`} desc="Airing schedule" />
+        <Row method="GET" path={`${base}/api/renai?category=anime&action=recommendations&id={value}`} desc="Recommendations (requires id)" />
+        <Row method="GET" path={`${base}/api/renai?category=manhwa&action=top-genre&genre={name}`} desc="Top by genre (requires genre)" />
+        <Row method="GET" path={`${base}/api/renai?action=character&id={value}`} desc="Character detail (requires id)" />
         <Row
           method="GET"
-          path={`${base}/api/aichixia?action=staff&id={value}`}
+          path={`${base}/api/renai?action=staff&id={value}`}
           desc="Staff detail (requires id)"
           active={false}
           overrideLabel="Maintenance"
